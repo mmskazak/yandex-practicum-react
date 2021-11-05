@@ -1,0 +1,39 @@
+.layer {
+    max-width: 600px;
+    height: 600px;
+    padding: 5px;
+}
+
+.title {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.titleCenter {
+    text-align: center;
+}
+
+.rowItems {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.item {
+    position: relative;
+    display: block;
+    margin: 5px 5px;
+}
+
+.burgerIngredient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.itemPrice {
+    margin: 0 4px;
+    text-align: center;
+}
