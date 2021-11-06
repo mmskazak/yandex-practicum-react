@@ -11,7 +11,7 @@ class BurgerConstructor extends React.Component {
 
     render() {
         return (
-            <div className={styles.layer}>
+            <div className={styles.container}>
                 <div style={{
                     display: 'flex',
                     flexDirection: 'row',
@@ -29,7 +29,7 @@ class BurgerConstructor extends React.Component {
                         />
                     </div>
                     <div>
-                        <img className="mr-4" src={six} alt="" width="13" height="18" />
+                        <img className="mr-2" src={six} alt="" width="13" height="18" />
                         <ConstructorElement
                             text="Краторная булка N-200i (верх)"
                             price={50}
@@ -37,7 +37,7 @@ class BurgerConstructor extends React.Component {
                         />
                     </div>
                     <div>
-                        <img className="mr-4" src={six} alt="" width="13" height="18" />
+                        <img className="mr-2" src={six} alt="" width="13" height="18" />
                         <ConstructorElement
                             text="Краторная булка N-200i (верх)"
                             price={50}
@@ -45,7 +45,7 @@ class BurgerConstructor extends React.Component {
                         />
                     </div>
                     <div>
-                        <img className="mr-4" src={six} alt="" width="13" height="18" />
+                        <img className="mr-2" src={six} alt="" width="13" height="18" />
                         <ConstructorElement
                             text="Краторная булка N-200i (верх)"
                             price={50}
@@ -53,7 +53,7 @@ class BurgerConstructor extends React.Component {
                         />
                     </div>
                     <div>
-                        <img className="mr-4" src={six} alt="" width="13" height="18" />
+                        <img className="mr-2" src={six} alt="" width="13" height="18" />
                         <ConstructorElement
                             text="Краторная булка N-200i (верх)"
                             price={50}
@@ -61,7 +61,7 @@ class BurgerConstructor extends React.Component {
                         />
                     </div>
                     <div>
-                        <img className="mr-4" src={six} alt="" width="13" height="18" />
+                        <img className="mr-2" src={six} alt="" width="13" height="18" />
                         <ConstructorElement
                             text="Краторная булка N-200i (верх)"
                             price={50}

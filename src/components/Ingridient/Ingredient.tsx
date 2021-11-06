@@ -8,8 +8,7 @@ class Ingredient extends React.Component {
         return (
             <div className={styles.ingredient}>
                 <Counter count={1} size="default" />
-                {/*src="this.props.image"*/}
-                <img className="pr-4 pl-4 mb-1" alt="n200i" width="240" height="120" />
+                <img className="pr-4 pl-4 mb-1"  alt="n200i" width="240" height="120" />
                 <p className={styles.ingredientPrice}>
                             <span className="text text_type_digits-default mr-2">
                              "this.props.price"

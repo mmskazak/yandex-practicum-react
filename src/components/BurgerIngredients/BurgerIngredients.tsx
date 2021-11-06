@@ -8,7 +8,8 @@ class BurgerIngredients extends React.Component {
 
     render() {
         return (
-            <div className={styles.layer}>
+            <div className={styles.container}>
+                {this.props.ingredients}
                 <h1 className={styles.title + "text text_type_main-large"}>
                     Соберите бургер
                 </h1>
